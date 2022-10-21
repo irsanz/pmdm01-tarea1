@@ -1,3 +1,4 @@
+import { ComponentesModule } from './../../shared/componentes.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -14,7 +15,8 @@ import { Tab5Page } from './tab5.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    Tab5PageRoutingModule
+    Tab5PageRoutingModule,
+    ComponentesModule
   ],
   declarations: [Tab5Page]
 })
