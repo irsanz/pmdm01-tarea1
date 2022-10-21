@@ -15,6 +15,7 @@ export class Tab5Page implements OnInit {
   valoresLista: IValor[] = [
     {
       imagen: "/assets/img/BIRT_LOGO.png",
+  
       url: "https://www.birt.eus/",
     },
     {
